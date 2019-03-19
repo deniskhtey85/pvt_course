@@ -1,0 +1,60 @@
+﻿1.	Выбрать все записи из таблицы Categories
+select * from categories
+
+2.	Выбрать Id  и название категорий из таблицы Categories
+select categoryid, categoryname from categories
+
+3.	Выбрать адреса из таблицы Suppliers
+select address from suppliers
+
+4.	Отсортировать все продукты по цене в порядке убывания
+select * from products order by price desc
+
+5.	Отсортировать таблицу заказов по CustomerID, а затем по ShipperID в одной запросе
+select * from orders order by customerid, shipperid
+
+6.	Выбрать все продукты, цена которых больше 40 и отсортировать по названию в обратном порядке
+select * from products where price > '40' order by productname desc
+
+7.	Выбрать все продукты, цена которых находится в диапазоне от 20 до 50 и отсортировать по юниту 
+select * from products where price between '20' and '50' order by unit
+
+8.	Выбрать все продукты, цена которых находится в диапазоне от 20 до 100 или CategoryID = 6
+select * from products where price between '20' and '100' or categoryid = '6'
+
+9.	Выбрать все продукты, цена которых равна 46, 53, 55 (2-мя способами)
+select * from products where price in (46, 53, 55)
+select * from products where price = '46' or price = '53' or price = '55'
+
+10.	 Выбрать все продукты, кроме тех, цена которых равна 46, 53, 55 
+select * from products where price not in (46, 53, 55)
+
+11.	 Выбрать все продукты, в имени которых есть сочетание «han»
+select * from products where productname like '%han%'
+
+12.	 Вставить одну полную строку в таблицу Shippers
+insert into shippers (shipperid, shippername, phone) values ('5', 'Vasya', '02')
+
+13.	 Вставить строку с 2-мя указанными значениями в таблицу Shippers
+insert into shippers (shipperid, shippername) values ('4', 'Oleg')
+
+14.	 Вставить значения из таблицы Shippers в таблицу Categories
+insert into categories (categoryname, description) select shippername, phone from shippers
+
+15.	 Вставить значения из таблицы Shippers c именем поставщика «Speedy Express» в таблицу Categories 
+insert into categories (categoryname, description) select shippername, phone from shippers where shippername = 'Speedy Express'
+
+16.	 Удалить из таблицы Shippers доставщика с именем 	«Speedy Express»
+delete from shippers where shippername = 'Speedy Express'
+
+17.	 Удалить продукты, цена которых меньше 50
+delete from products where price < '50'
+
+18.	 Удалить все заказы
+delete from orders
+
+19.	  Изменить описании категории продукта с названием категории = «Beverages» на любое другое
+update categories set description = 'update' where categoryname = 'Beverages'
+
+20.	 Изменить цену продукта с именем Chais на любую другую
+update products set price = '12345' where productname = 'Chais'
