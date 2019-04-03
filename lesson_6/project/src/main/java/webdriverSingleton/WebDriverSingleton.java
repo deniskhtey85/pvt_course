@@ -8,15 +8,19 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class WebDriverSingleton {
 
 	private static WebDriver driver;
-	private static ChromeOptions options;
+//	private static ChromeOptions options;
 
 	private WebDriverSingleton() {
 	}
 
 	public static WebDriver getWebDriverInstance() {
 		if (null == driver) {
-			options = new ChromeOptions();
-			options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+//			options = new ChromeOptions();
+//			options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+			ChromeOptions options = new ChromeOptions();
+			options.setHeadless(true);
+
+
 			driver = new ChromeDriver(options);
 		}
 		return driver;

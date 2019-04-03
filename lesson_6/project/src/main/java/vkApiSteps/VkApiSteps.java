@@ -40,7 +40,7 @@ public class VkApiSteps {
 			log.error(e.getMessage());
 			log.trace(e.getStackTrace());
 		}
-		log.info("XML data parsed successfully");
+		log.trace("XML data parsed successfully");
 	}
 
 	@When("^I sent post request to the wall$")

@@ -5,6 +5,8 @@ import static org.junit.Assert.assertFalse;
 
 import java.io.IOException;
 
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
@@ -34,10 +36,14 @@ public class MailBoxTestSteps {
 		loginPage = new LoginPage(webDriver);
 		mailboxPage = new MailBoxPage(webDriver);
 		loginPage.setInitialProperty();
-		userDataTable = new TestData();
-		
+//		userDataTable = new TestData();
 
 	}
+
+	@Before
+    public void beforeClass(){
+        userDataTable = new TestData();
+    }
 
 	@Given("^I am an authorized user on the mail page$")
 	public void openMailBoxPage() {
@@ -183,6 +189,11 @@ public class MailBoxTestSteps {
 		} catch (IOException e) {
 			log.warn(e.getMessage());
 		}
+	}
+
+	@After
+	public void afterClass() {
+		WebDriverSingleton.driverQuit();
 	}
 	
 	@Attachment()

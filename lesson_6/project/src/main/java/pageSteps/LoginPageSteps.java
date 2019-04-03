@@ -1,5 +1,7 @@
 package pageSteps;
 
+
+import cucumber.api.java.Before;
 import org.openqa.selenium.WebDriver;
 
 import cucumber.api.java.After;
@@ -25,13 +27,18 @@ public class LoginPageSteps {
 	private WebDriver webDriver;
 	private static final Logger log = Logger.getLogger(LoginPageSteps.class);
 
+
 	public LoginPageSteps() {
 		webDriver = WebDriverSingleton.getWebDriverInstance();
 		loginPage = new LoginPage(webDriver);
 		loginPage.setInitialProperty();
+//		userDataTable = new TestData();
+	}
+
+	@Before
+	public void beforeClass(){
 		userDataTable = new TestData();
 	}
-	
 	
 
 	@Given("^Main application page is opened$")
@@ -45,13 +52,6 @@ public class LoginPageSteps {
 		loginPage.enterDataForLogin(userDataTable.getLogin(), userDataTable.getPassword());
 		loginPage.clickLoginButton();
 		log.info("User authorised successfully");
-	}
-	
-	@When("^Enter incorrect user \"([^\"]*)\" and \"([^\"]*)\"$")
-	public void enterInvalidCreds(String login, String password) {
-		loginPage.enterDataForLogin(login, password);
-		loginPage.clickLoginButton();
-		log.info("User not authorised");
 	}
 	
 	@When("^I click Forgot Password link$")
@@ -94,18 +94,7 @@ public class LoginPageSteps {
 		}
 	}
 	
-	@Then("^login error hint is displayed$")
-	public void seeErrorLoginHint() {
-		Assert.assertFalse(loginPage.isLogoutLinkDisplayed());
-		log.info("Error hint is displayed");
-		try {
-			Screenshot.makeScreenshot(webDriver);
-		} catch (IOException e) {
-			log.warn(e.getMessage());
-		}
-	}
-	
-	
+
 	@After
 	public void afterClass() {
 		WebDriverSingleton.driverQuit();
