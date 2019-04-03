@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <apiVKData >
-		<accessToken>72ce6bb35586cf16b3b3b6cb0c57a10ec4afca8722af06f5b23a13af4269d4c5bcc0dbbe0447761c9b7e1</accessToken>
+		<accessToken>70af757e8062d8fe03858e17760e11df3ee9451a2389e82fa8f4817ea67189354292357bdeb378c1729c1</accessToken>
 		<ownerId>536083852</ownerId>
 		<version>5.92</version>
 		<newMessage>new REST API POST wall message </newMessage>
