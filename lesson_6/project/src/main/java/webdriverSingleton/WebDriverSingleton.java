@@ -18,7 +18,8 @@ public class WebDriverSingleton {
 //			options = new ChromeOptions();
 //			options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 			ChromeOptions options = new ChromeOptions();
-			options.setHeadless(true);
+			options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080","--ignore-certificate-errors");
+		//	options.setHeadless(true);
 
 
 			driver = new ChromeDriver(options);

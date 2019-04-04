@@ -5011,3 +5011,127 @@
 00:03:48,829  INFO main VkApiSteps:isMessagePosted:66 - Message is posted on the wall
 00:03:53,092  INFO main VkApiSteps:isMessageEdited:93 - Message is edited on the wall
 00:03:57,776  INFO main VkApiSteps:isMessageDeleted:119 - Message is deleted on the wall
+00:26:55,279  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+00:26:55,939  INFO main LoginPageSteps:loginAsCorrectUser:54 - User authorised successfully
+00:27:00,460  INFO main LoginPageSteps:seeLogoutLink:78 - Log out link is displayed
+00:27:08,573  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+00:27:08,631  INFO main LoginPageSteps:seeSaveAuthCheckboxSelected:89 - Save auth checkbox is selected
+00:27:16,469  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+00:27:16,587  INFO main LoginPageSteps:clickForgotPasswordlink:60 - Click forgot password link
+00:27:19,128  INFO main LoginPageSteps:seeRestorePasswordButton:67 - Restore password button os shown
+00:27:32,752  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+00:27:34,534  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+00:27:39,645  INFO main LoginPageSteps:moveLetterToSpam:118 - Move letter to spam
+00:27:44,237  INFO main LoginPageSteps:navigateToSpamFolder:129 - Go to spam folder
+00:27:48,665  INFO main LoginPageSteps:checkLetterInSpamFolder:142 - Letter exist in spam folder
+00:28:02,028  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+00:28:03,361  INFO main LoginPageSteps:navigateToSpamFolder:129 - Go to spam folder
+00:28:07,861  INFO main LoginPageSteps:extractLetterFromSpam:94 - Letter exist in spam
+00:28:16,376  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+00:28:20,411  INFO main LoginPageSteps:checkLetterInIncomingFolder:153 - See letter moved to incoming folder
+00:28:34,438  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+00:28:35,952  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+00:28:40,902  INFO main LoginPageSteps:markLettersByFlag:72 - Letters are marked
+00:28:42,675  INFO main LoginPageSteps:checkMarkedLatters:164 - Marked latters are shown
+00:28:55,048  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+00:28:56,683  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+00:29:01,646  INFO main LoginPageSteps:unmarkFlagFromLetters:83 - Flags removed from letters
+00:29:03,145  INFO main LoginPageSteps:checkUnmarkedLatters:175 - Letters unmarked
+00:29:16,072  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+00:29:21,795  INFO main LoginPageSteps:sentMailToGroupOfUsers:65 - Sent mail to the group of users
+00:29:22,167  INFO main LoginPageSteps:messageSentNotification:186 - notification shown
+00:29:28,703  INFO main VkApiSteps:isMessagePosted:66 - Message is posted on the wall
+00:29:33,205  INFO main VkApiSteps:isMessageEdited:93 - Message is edited on the wall
+00:29:37,524  INFO main VkApiSteps:isMessageDeleted:119 - Message is deleted on the wall
+00:37:21,388  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+00:37:22,274  INFO main LoginPageSteps:loginAsCorrectUser:54 - User authorised successfully
+00:37:27,602  INFO main LoginPageSteps:seeLogoutLink:78 - Log out link is displayed
+00:37:33,254  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+00:37:33,291  INFO main LoginPageSteps:seeSaveAuthCheckboxSelected:89 - Save auth checkbox is selected
+00:37:38,307  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+00:37:38,589  INFO main LoginPageSteps:clickForgotPasswordlink:60 - Click forgot password link
+00:37:41,019  INFO main LoginPageSteps:seeRestorePasswordButton:67 - Restore password button os shown
+00:37:51,331  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+00:37:56,831  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+00:38:01,241  INFO main LoginPageSteps:moveLetterToSpam:118 - Move letter to spam
+00:38:02,457  INFO main LoginPageSteps:navigateToSpamFolder:129 - Go to spam folder
+00:38:06,935  INFO main LoginPageSteps:checkLetterInSpamFolder:142 - Letter exist in spam folder
+00:38:18,137  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+00:38:19,396  INFO main LoginPageSteps:navigateToSpamFolder:129 - Go to spam folder
+00:38:25,322  INFO main LoginPageSteps:extractLetterFromSpam:94 - Letter exist in spam
+00:38:35,225  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+00:38:36,514  INFO main LoginPageSteps:checkLetterInIncomingFolder:153 - See letter moved to incoming folder
+00:38:48,013  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+00:38:53,279  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+00:38:54,855  INFO main LoginPageSteps:markLettersByFlag:72 - Letters are marked
+00:38:56,712  INFO main LoginPageSteps:checkMarkedLatters:164 - Marked latters are shown
+00:39:08,350  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+00:39:09,800  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+00:39:15,122  INFO main LoginPageSteps:unmarkFlagFromLetters:83 - Flags removed from letters
+00:39:16,573  INFO main LoginPageSteps:checkUnmarkedLatters:175 - Letters unmarked
+00:39:28,432  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+00:39:33,444  INFO main LoginPageSteps:sentMailToGroupOfUsers:65 - Sent mail to the group of users
+00:39:33,690  INFO main LoginPageSteps:messageSentNotification:186 - notification shown
+00:39:39,059  INFO main VkApiSteps:isMessagePosted:66 - Message is posted on the wall
+00:39:42,440  INFO main VkApiSteps:isMessageEdited:93 - Message is edited on the wall
+00:39:45,582  INFO main VkApiSteps:isMessageDeleted:119 - Message is deleted on the wall
+12:06:25,784  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+12:06:26,409  INFO main LoginPageSteps:loginAsCorrectUser:54 - User authorised successfully
+12:06:30,835  INFO main LoginPageSteps:seeLogoutLink:78 - Log out link is displayed
+12:06:36,309  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+12:06:36,345  INFO main LoginPageSteps:seeSaveAuthCheckboxSelected:89 - Save auth checkbox is selected
+12:06:41,472  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+12:06:41,562  INFO main LoginPageSteps:clickForgotPasswordlink:60 - Click forgot password link
+12:06:43,790  INFO main LoginPageSteps:seeRestorePasswordButton:67 - Restore password button os shown
+12:06:52,655  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+12:06:54,200  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+12:06:58,317  INFO main LoginPageSteps:moveLetterToSpam:118 - Move letter to spam
+12:07:01,829  INFO main LoginPageSteps:navigateToSpamFolder:129 - Go to spam folder
+12:07:05,097  INFO main LoginPageSteps:checkLetterInSpamFolder:142 - Letter exist in spam folder
+12:07:14,802  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+12:07:15,986  INFO main LoginPageSteps:navigateToSpamFolder:129 - Go to spam folder
+12:07:19,532  INFO main LoginPageSteps:extractLetterFromSpam:94 - Letter exist in spam
+12:07:25,635  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+12:07:29,044  INFO main LoginPageSteps:checkLetterInIncomingFolder:153 - See letter moved to incoming folder
+12:07:38,627  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+12:07:39,831  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+12:07:43,898  INFO main LoginPageSteps:markLettersByFlag:72 - Letters are marked
+12:07:53,420  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+12:07:54,649  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+12:07:58,730  INFO main LoginPageSteps:unmarkFlagFromLetters:83 - Flags removed from letters
+12:07:59,738  INFO main LoginPageSteps:checkUnmarkedLatters:175 - Letters unmarked
+12:08:40,024  INFO main VkApiSteps:isMessagePosted:66 - Message is posted on the wall
+12:08:43,363  INFO main VkApiSteps:isMessageEdited:93 - Message is edited on the wall
+12:08:46,853  INFO main VkApiSteps:isMessageDeleted:119 - Message is deleted on the wall
+12:15:32,641  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+12:15:33,369  INFO main LoginPageSteps:loginAsCorrectUser:54 - User authorised successfully
+12:15:37,434  INFO main LoginPageSteps:seeLogoutLink:78 - Log out link is displayed
+12:15:42,762  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+12:15:42,800  INFO main LoginPageSteps:seeSaveAuthCheckboxSelected:89 - Save auth checkbox is selected
+12:15:47,802  INFO main LoginPageSteps:loadMainPage:47 - Main application page is opened
+12:15:48,120  INFO main LoginPageSteps:clickForgotPasswordlink:60 - Click forgot password link
+12:15:50,668  INFO main LoginPageSteps:seeRestorePasswordButton:67 - Restore password button os shown
+12:15:59,958  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+12:16:01,179  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+12:16:05,178  INFO main LoginPageSteps:moveLetterToSpam:118 - Move letter to spam
+12:16:08,589  INFO main LoginPageSteps:navigateToSpamFolder:129 - Go to spam folder
+12:16:11,890  INFO main LoginPageSteps:checkLetterInSpamFolder:142 - Letter exist in spam folder
+12:16:21,773  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+12:16:22,855  INFO main LoginPageSteps:navigateToSpamFolder:129 - Go to spam folder
+12:16:26,428  INFO main LoginPageSteps:extractLetterFromSpam:94 - Letter exist in spam
+12:16:32,847  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+12:16:36,075  INFO main LoginPageSteps:checkLetterInIncomingFolder:153 - See letter moved to incoming folder
+12:16:45,661  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+12:16:46,977  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+12:16:51,093  INFO main LoginPageSteps:markLettersByFlag:72 - Letters are marked
+12:16:52,137  INFO main LoginPageSteps:checkMarkedLatters:164 - Marked latters are shown
+12:17:01,818  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+12:17:03,040  INFO main LoginPageSteps:navigateToIncomingFolder:106 - Go to incoming folder
+12:17:06,786  INFO main LoginPageSteps:unmarkFlagFromLetters:83 - Flags removed from letters
+12:17:07,900  INFO main LoginPageSteps:checkUnmarkedLatters:175 - Letters unmarked
+12:17:18,811  INFO main LoginPageSteps:openMailBoxPage:54 - User is login
+12:17:23,564  INFO main LoginPageSteps:sentMailToGroupOfUsers:65 - Sent mail to the group of users
+12:17:23,605  INFO main LoginPageSteps:messageSentNotification:186 - notification shown
+12:17:28,426  INFO main VkApiSteps:isMessagePosted:66 - Message is posted on the wall
+12:17:31,584  INFO main VkApiSteps:isMessageEdited:93 - Message is edited on the wall
+12:17:34,661  INFO main VkApiSteps:isMessageDeleted:119 - Message is deleted on the wall
