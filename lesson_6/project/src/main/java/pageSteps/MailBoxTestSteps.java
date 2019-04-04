@@ -35,7 +35,7 @@ public class MailBoxTestSteps {
 		webDriver = WebDriverSingleton.getWebDriverInstance();
 		loginPage = new LoginPage(webDriver);
 		mailboxPage = new MailBoxPage(webDriver);
-		loginPage.setInitialProperty();
+//		loginPage.setInitialProperty();
 //		userDataTable = new TestData();
 
 	}

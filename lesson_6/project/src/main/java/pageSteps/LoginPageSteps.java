@@ -31,7 +31,7 @@ public class LoginPageSteps {
 	public LoginPageSteps() {
 		webDriver = WebDriverSingleton.getWebDriverInstance();
 		loginPage = new LoginPage(webDriver);
-		loginPage.setInitialProperty();
+//		loginPage.setInitialProperty();
 //		userDataTable = new TestData();
 	}
 
