@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apiVKData >
+		<accessToken>505470fd6321f656de6dd3e18464595133460c73638f7d68b750e3167a2e92228c03a477b41f1aa07413b</accessToken>
+		<ownerId>536083852</ownerId>
+		<version>5.92</version>
+		<newMessage>new REST API POST wall message </newMessage>
+		<editMessage>REST API POST edit wall message</editMessage>
+		<uriBuilderPost>https://api.vk.com/method/wall.post?</uriBuilderPost>
+		<uriBuilderEdit>https://api.vk.com/method/wall.edit?</uriBuilderEdit>
+		<uriBuilderDelete>https://api.vk.com/method/wall.delete?</uriBuilderDelete>
+</apiVKData> 
